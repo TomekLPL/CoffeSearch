@@ -1,0 +1,256 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: rgb(240, 238, 228);
+}
+
+.wrapper {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 800px;
+	background-color: #fff;
+	box-shadow: 0 0 20px rgb(71, 39, 2);
+	border-radius: 15px;
+}
+
+.header,
+.header-espresso,
+.header-aeropress,
+.header-affogato,
+.header-americano,
+.header-cappuccino,
+.header-coldbrew,
+.header-cortado,
+.header-cuban,
+.header-ethiopian,
+.header-flatwhite,
+.header-frappuccino,
+.header-nitrocoldbrew,
+.header-frenchpress,
+.header-icedcoffe,
+.header-irishcoffe,
+.header-kopitubruk,
+.header-latte,
+.header-macchiato,
+.header-mocha,
+.header-turkishcoffe {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	flex-direction: column;
+	position: relative;
+	height: 450px;
+	padding: 20px 40px;
+	font-family: 'Lemon', serif;
+	background-size: cover;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	z-index: 0;
+}
+
+.header {
+	background-image: url(../img/heroimg.jpg);
+	background-position: 50% 80%;
+}
+
+.header-espresso {
+	background-image: url(../img/espresso.jpg);
+	background-position: 50% 45%;
+}
+
+.header-aeropress {
+	background-image: url(../img/aeropress-coffe.jpg);
+	background-position: 50% 100%;
+}
+
+.header-affogato {
+	background-image: url(../img/affogato.jpg);
+	background-position: 50% 30%;
+}
+
+.header-americano {
+	background-image: url(../img/americano.jpg);
+	background-position: 50% 55%;
+}
+
+.header-cappuccino {
+	background-image: url(../img/cappuccino.jpg);
+	background-position: 50% 35%;
+}
+
+.header-coldbrew {
+	background-image: url(../img/cold-brew.jpg);
+	background-position: 50% 55%;
+}
+
+.header-cortado {
+	background-image: url(../img/cortado.jpg);
+	background-position: 50% 35%;
+}
+
+.header-cuban {
+	background-image: url(../img/cuban-coffe.jpg);
+	background-position: 50% 25%;
+}
+
+.header-ethiopian {
+	background-image: url(../img/ethiopian-coffe.jpg);
+	background-position: 50% 35%;
+}
+
+.header-flatwhite {
+	background-image: url(../img/flat-white.jpg);
+	background-position: 50% 55%;
+}
+
+.header-frappuccino {
+	background-image: url(../img/frappuccino.jpg);
+	background-position: 50% 5%;
+}
+
+.header-nitrocoldbrew {
+	background-image: url(../img/nitro-cold-brew.jpg);
+	background-position: 50% 65%;
+}
+
+.header-frenchpress {
+	background-image: url(../img/french-press-coffe.jpg);
+	background-position: 50% 50%;
+}
+
+.header-icedcoffe {
+	background-image: url(../img/iced-coffe.jpg);
+	background-position: 50% 30%;
+}
+
+.header-irishcoffe {
+	background-image: url(../img/irish-coffe.jpg);
+	background-position: 50% 40%;
+}
+
+.header-kopitubruk {
+	background-image: url(../img/kopi-tubruk.jpg);
+	background-position: 50% 25%;
+}
+
+.header-latte {
+	background-image: url(../img/latte.jpg);
+	background-position: 50% 40%;
+}
+
+.header-macchiato {
+	background-image: url(../img/macchiato.jpg);
+	background-position: 50% 35%;
+}
+
+.header-mocha {
+	background-image: url(../img/mocha.jpg);
+	background-position: 50% 50%;
+}
+
+.header-turkishcoffe {
+	background-image: url(../img/turkish-coffe.jpg);
+	background-position: 50% 70%;
+}
+
+.shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(71, 39, 2, 0.5);
+	border-radius: 10px;
+	z-index: -1;
+}
+
+h1 {
+	margin-bottom: 20px;
+	color: rgb(240, 238, 228);
+	text-shadow: 5px 5px 5px rgb(71, 39, 2);
+	font-size: 50px;
+}
+
+.search {
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	font-size: 16px;
+	border-radius: 8px;
+	background-color: rgba(240, 238, 228, 0.75);
+}
+
+.coffe-list {
+	position: relative;
+	padding: 20px 40px;
+}
+
+p {
+	padding: 10px 20px 65px;
+}
+
+h2 {
+	padding: 30px 0;
+}
+
+ul {
+	padding-bottom: 30px;
+	list-style: none;
+}
+
+li {
+	display: flex;
+	justify-content: space-between;
+	padding: 6px 25px;
+	border-bottom: 1px solid rgb(240, 238, 228);
+}
+
+li:last-child {
+	border-bottom: none;
+}
+
+button {
+	background-color: rgba(71, 39, 2, 0.6);
+	color: rgb(240, 238, 228);
+}
+
+li .learn-more {
+	padding: 5px 15px;
+	font-size: 12px;
+	border-radius: 5px;
+	border: none;
+	font-weight: bold;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+li .learn-more:hover {
+	background-color: rgb(240, 238, 228);
+	color: rgba(71, 39, 2, 0.6);
+}
+
+.return {
+	position: absolute;
+	bottom: 35px;
+	right: 65px;
+	padding: 5px 20px;
+	font-size: 18px;
+	border-radius: 5px;
+	border: none;
+	font-weight: bold;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.return:hover {
+	background-color: rgb(240, 238, 228);
+	color: rgb(71, 39, 2, 0.6);
+}
